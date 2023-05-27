@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SCC GRID</title>
+    <style>
+        body{
+            background-color: #234;
+            font-family: Arial;
+        }
+        header,  div{
+            background-color: orange;
+            margin: 0;
+            padding: 3%;
+        }
+        header{
+           grid-column-start: 1;
+           grid-column-end: 4; 
+           grid-row-start: 1;
+           grid-row-end: 4; 
+        }
+        div{
+            grid-column-start: 3;
+           grid-column-end: 6; 
+           grid-row-start: 3;
+           grid-row-end: 6;  
+        }
+        div p{
+            text-align: center;
+            padding: 3%;
+        }
+       
+        main{
+            width: 70%;
+            margin:5% auto;
+            height: 70vh;
+
+            background-color:#fff ;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows :repeat(5,1fr);
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+<header>
+    <h1>Hello CSS Grid!</h1>
+</header>
+
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio amet recusandae est laudantium, incidunt assumenda voluptas explicabo deserunt ratione voluptatum. Numquam nam hic molestiae fugiat voluptatum totam sint eligendi. Obcaecati dolore esse quam saepe assumenda corrupti ipsa cupiditate corporis perspiciatis.</p>
+    <p>Libero delectus reprehenderit nulla deserunt optio, vitae esse enim non sapiente similique. Quasi quaerat rem iste quod similique sed laborum debitis beatae earum. Minus corrupti fugiat sapiente sint error eveniet, nulla dolorem voluptatum veniam accusamus quo necessitatibus beatae eaque. Aliquam.</p>
+   
+   
+</div>
+
+    </main>
+    
+</body>
+</html>
